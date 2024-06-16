@@ -1,0 +1,11 @@
+{
+  "name": "trabalho-pratico-diw-lucsfn",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js",
+    "json-server": "json-server --watch ./db/db.json --port 3000"
+  },
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}

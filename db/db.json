@@ -1,0 +1,53 @@
+{
+  "sugested-content": [
+    {
+      "id": 1,
+      "title": "Introdução ao JavaScript",
+      "description": "JavaScript é uma linguagem de programação essencial para o desenvolvimento web moderno. Este artigo do MDN Web Docs oferece uma introdução abrangente ao JavaScript, cobrindo a sintaxe básica, estruturas de controle, funções, objetos e mais. Ideal para iniciantes, este guia também inclui exemplos práticos e explicações claras para ajudar os leitores a entender como manipular o DOM, criar interatividade em páginas web e integrar JavaScript com HTML e CSS.",
+      "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "acesslink": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Introduction"
+    },
+    {
+      "id": 2,
+      "title": "Fundamentos de Python",
+      "description": "Python é uma linguagem de programação poderosa e de fácil aprendizado, amplamente utilizada em ciência de dados, desenvolvimento web, automação e muito mais. Este tutorial do W3Schools abrange os fundamentos de Python, incluindo tipos de dados, estruturas de controle, funções e módulos. Com exemplos práticos e exercícios interativos, este recurso é perfeito para quem está começando sua jornada na programação com Python e quer construir uma base sólida.",
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "acesslink": "https://www.w3schools.com/python/"
+    },
+    {
+      "id": 3,
+      "title": "Desenvolvimento Web com HTML e CSS",
+      "description": "HTML e CSS são as linguagens de marcação e estilização fundamentais para a criação de páginas web. O curso de Design Responsivo da freeCodeCamp oferece um guia completo que ensina como criar e estilizar páginas web responsivas e acessíveis. O curso cobre desde os conceitos básicos até técnicas avançadas, incluindo layout flexível, grid layout, animações CSS e práticas recomendadas para acessibilidade e SEO.",
+      "image": "https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19?q=80&w=1742&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "acesslink": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+    },
+    {
+      "id": 4,
+      "title": "Introdução ao Git e Controle de Versão",
+      "description": "Git é um sistema de controle de versão distribuído amplamente utilizado em desenvolvimento de software. Este tutorial da Atlassian fornece uma introdução detalhada ao Git, explicando conceitos essenciais como repositórios, commits, branches e merges. O artigo também oferece instruções passo a passo sobre como configurar um repositório Git, rastrear mudanças no código e colaborar com outros desenvolvedores, tornando-se uma leitura indispensável para quem deseja dominar o controle de versão.",
+      "image": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?q=80&w=1752&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "acesslink": "https://www.atlassian.com/git/tutorials"
+    },
+    {
+      "id": 5,
+      "title": "Noções Básicas de SQL e Bancos de Dados",
+      "description": "SQL (Structured Query Language) é a linguagem padrão para gerenciamento de bancos de dados relacionais. Este tutorial da Khan Academy cobre os conceitos básicos de SQL, incluindo como escrever consultas para selecionar, inserir, atualizar e deletar dados em um banco de dados. O curso também aborda a criação e manipulação de tabelas e fornece exercícios práticos para reforçar o aprendizado. É um excelente ponto de partida para quem deseja aprender como gerenciar dados de forma eficiente.",
+      "image": "https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "acesslink": "https://www.khanacademy.org/computing/computer-programming/sql"
+    }
+  ],
+  "myself-github-links": [
+    {
+      "linkedin": "https://www.linkedin.com/in/lucas-fernandes-2b1b26225/",
+      "github": "https://github.com/lucsfn",
+      "instagram": "https://www.instagram.com/lucs.fn/"
+    }
+  ],
+  "extra-infos": [
+    {
+      "fullname": "Lucas Fernandes Nascimento",
+      "college": "Puc Minas",
+      "course": "Sistemas de Informação"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repositório</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Lucas</a>
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+            <i class="fa-solid fa-xmark" id="close-icon"></i>
+        </label>
+        <nav class="navbar">
+            <a href="#" style="--i:0;">seção 1</a>
+            <a href="#" style="--i:1;">seção 2</a>
+            <a href="#" style="--i:2;">seção 3</a>
+        </nav> 
+    </header>
+    <main>
+        <section class="repo-cotaniner-github">
+            <div id="repo_details">
+                <h1 id="repo_name">Nome do Repositório<span class="dot">.</span></h1>
+                <div class="repo-github-content">
+                    <h2>descrição:</h2>
+                    <p id="repo_desc" class="repo-desc">Descrição do repositório.</p>
+                    <h2>data de criação:</h2>
+                    <p id="repo_date" class="repo-desc">xx/xx/xxxx</p>
+                    <h2>linguagens utilizadas:</h2>
+                    <div class="repo-languages">
+                        <ul class="list" id="repo_programming_languages">
+                            <!-- Linguagens serão inseridas dinamicamente aqui -->
+                        </ul>
+                    </div>
+                    <h2>tópicos:</h2>
+                    <ul class="list" id="topics">
+                        <!-- Tópicos serão inseridos dinamicamente aqui -->
+                    </ul>
+                    <h2>estrelas:</h2>
+                    <p class="desc-text" id="repo_favs">0</p>
+                    <h2>forks:</h2>
+                    <p class="desc-text" id="repo_forks">0</p>
+                    <h2>link de acesso:</h2>
+                    <a href="#" id="acess_link" target="_blank"><button class="custom-btn btn-14" id="btn_repo_details">ver</button></a>
+                </div>
+            </div>           
+        </section>
+        <span id="repo_specific_element"></span>
+    </main>
+    <footer id="footer">
+        <div class="footer-container">
+            <p id="footer_name"></p>
+            <p id="age"></p>
+            <p id="footer_college"></p>
+            <p id="footer_course"></p>
+        </div>
+    </footer>
+    <script src="./assets/scripts/app.js"></script>
+    <script src="../index.js"></script>
+</body>
+</html>
