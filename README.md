@@ -42,5 +42,5 @@ Se a aplicação não estiver funcionando corretamente mesmo após configurar o 
 5. **Acesse a Aplicação Localmente:**
    - Abra o navegador e acesse `http://localhost:3000` para visualizar a aplicação em execução localmente.
 
-6. **Substitua a variável urlPattern no app.js para receber http://localhost:3000,
+6. **Substitua a variável urlPattern no app.js para receber http://localhost:3000**
 para chegar ao caminho do app.js basta acessar ./public/assets/scripts/
