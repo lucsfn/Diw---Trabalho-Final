@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
 
 <body>
@@ -19,13 +20,13 @@
             <i class="fa-solid fa-xmark" id="close-icon"></i>
         </label>
         <nav class="navbar">
-            <a href="#" style="--i:0;">seção 1</a>
-            <a href="#" style="--i:1;">seção 2</a>
-            <a href="#" style="--i:2;">seção 3</a>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" style="--i:0;">html</a>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" style="--i:1;">css</a>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" style="--i:2;">js</a>
         </nav>
     </header>
     <main>
-        <section class="profile">
+        <section class="profile" data-aos="fade-right">
             <h1>perfil<span class="dot">.</span></h1>
             <div class="profile-content">
                 <div class="profile-pic">
@@ -60,13 +61,13 @@
                 </div>
             </div>
         </section>
-        <section class="repos">
+        <section class="repos" data-aos="fade-right">
             <h1>repositórios(<span id="repo_count">X</span>)<span class="dot">.</span></h1>
             <div class="repos-content" id="repos_content">
                 <!-- Será adicionado pelo JSON server, mantido por ora apenas para teste/estilização -->
             </div>
         </section>
-        <section class="sugested-content">
+        <section class="sugested-content" data-aos="fade-right">
             <h1>conteúdo sugerido<span class="dot">.</span></h1>
             <div class="slider-container">
                 <div class="slides">
@@ -81,7 +82,7 @@
                 </div>
             </div>
         </section>
-        <section class="coworkers">
+        <section class="coworkers" data-aos="fade-right">
             <h1>colegas de trabalho<span class="dot">.</span></h1>
             <div class="coworkers-container">
                 <div class="coworkers-list">                             
@@ -100,6 +101,10 @@
     </footer>
     <script src="./assets/scripts/app.js"></script>
     <script src="../index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

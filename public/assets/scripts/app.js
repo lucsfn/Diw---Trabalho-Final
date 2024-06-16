@@ -12,7 +12,7 @@ function calculateAge() {
 let age = calculateAge();
 ageText.textContent = `${age} anos`;
 
-const urlSG = "http://localhost:3000/sugested-content";
+const urlSG = "https://back-end-diw-silk.vercel.app/sugested-content";
 
 async function getAllSugestedContent() {
     const response = await fetch(urlSG);
@@ -166,7 +166,7 @@ async function getMyself() {
     }
 }
 
-const urlLinks = "http://localhost:3000/myself-github-links";
+const urlLinks = "https://back-end-diw-silk.vercel.app/myself-github-links";
 let linkedin = "";
 let ig = "";
 let github = "";
@@ -330,7 +330,6 @@ const repoSpecificElement = document.getElementById('repo_specific_element');
 if (repoSpecificElement) {
     const urlParams = new URLSearchParams(window.location.search);
     const repoId = urlParams.get('id');
-
     if (repoId) {
         loadRepoDetails(repoId);
     } else {
@@ -411,7 +410,7 @@ async function loadRepoDetails(repoId) {
     }
 }
 
-const urlEI = "http://localhost:3000/extra-infos";
+const urlEI = "https://back-end-diw-silk.vercel.app/extra-infos";
 
 dataFooter = [];
 
@@ -428,4 +427,8 @@ async function getFooter() {
         footerCollege.textContent = post.college;
         footerCourse.textContent = post.course;
     });
+}
+
+if (repoSpecificElement) {
+    getFooter();
 }
