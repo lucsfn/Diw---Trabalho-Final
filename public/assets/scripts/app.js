@@ -47,7 +47,9 @@ function calculateAge() {
 let age = calculateAge();
 ageText.textContent = `${age} anos`;
 
-const urlSG = "https://back-end-diw-silk.vercel.app/sugested-content";
+let urlPattern = "https://back-end-diw-silk.vercel.app";
+
+const urlSG = `${urlPattern}/sugested-content`;
 
 async function getAllSugestedContent() {
     const response = await fetch(urlSG);
@@ -200,7 +202,7 @@ async function getMyself() {
     }
 }
 
-const urlLinks = "https://back-end-diw-silk.vercel.app/myself-github-links";
+const urlLinks = `${urlPattern}/myself-github-links`;
 let linkedin = "";
 let ig = "";
 let github = "";
@@ -444,7 +446,7 @@ async function loadRepoDetails(repoId) {
     }
 }
 
-const urlEI = "https://back-end-diw-silk.vercel.app/extra-infos";
+const urlEI = `${urlPattern}/extra-infos`;
 
 dataFooter = [];
 
