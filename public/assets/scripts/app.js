@@ -1,5 +1,40 @@
+let token = localStorage.getItem('token');
+let lastTokenDate = localStorage.getItem('tokenDate');
 
-const ageText = document.getElementById('age');
+function verifyToken() {
+    const currentDate = new Date();
+    const expiryDate = new Date('2024-06-15');
+
+    if (!token || !lastTokenDate || isTokenExpired(currentDate, new Date(lastTokenDate))) {
+        token = prompt("Por favor, insira seu token:");
+        if (token) {
+            localStorage.setItem('token', token);
+            localStorage.setItem('tokenDate', currentDate);
+            console.log("Token inserido:", token);
+        } else {
+            alert("Token não inserido. Por favor, recarregue a página e insira um token válido.");
+        }
+    } else {
+        console.log("Token existente:", token);
+    }
+
+    if (isTokenExpired(currentDate, expiryDate)) {
+        localStorage.removeItem('token');
+        localStorage.removeItem('tokenDate');
+        verifyToken();
+    }
+}
+
+function isTokenExpired(currentDate, tokenDate) {
+    const thirtyDaysInMilliseconds = 30 * 24 * 60 * 60 * 1000;
+    const difference = currentDate - tokenDate;
+    return difference > thirtyDaysInMilliseconds;
+}
+
+verifyToken();
+
+function initializeApp() {
+    const ageText = document.getElementById('age');
 
 function calculateAge() {
     const birthDate = new Date('2005-06-15');
@@ -107,7 +142,6 @@ function updateContent(index) {
 }
 
 const username = "lucsfn";
-const token = "";
 const myselfApiUrl = `https://api.github.com/users/${username}`;
 
 let myselfName = "";
@@ -432,3 +466,7 @@ async function getFooter() {
 if (repoSpecificElement) {
     getFooter();
 }
+
+}
+
+initializeApp();
