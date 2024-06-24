@@ -4,7 +4,7 @@ Projeto apresentado à disciplina de Desenvolvimento de Interfaces Web do 1º se
 
 ### Acesso à Aplicação
 
-Acesse a aplicação através do seguinte link: [Trabalho no Vercel](https://diw-trabalho-final.vercel.app/)
+Acesse a aplicação através do seguinte link: [Aplicação no Vercel](https://diw-trabalho-final.vercel.app/)
 
 ### Pré-requisitos
 
@@ -17,7 +17,7 @@ Para utilizar este projeto, você precisará de um token da API do GitHub. Siga 
 
 ### Executando o Projeto
 
-Se a aplicação não estiver funcionando corretamente mesmo após configurar o token, siga estes passos para iniciar o projeto localmente:
+Se o link do Vercel não estiver funcionando corretamente, o projeto deverá ser executado de forma local.
 
 1. **Abra o Projeto no Visual Studio Code:**
    - Abra o seu terminal dentro do Visual Studio Code.
@@ -44,4 +44,4 @@ Se a aplicação não estiver funcionando corretamente mesmo após configurar o 
    - Abra o navegador e acesse `http://localhost:3000` para visualizar a aplicação em execução localmente.
 
 6. **Substitua a variável urlPattern no app.js para receber http://localhost:3000**
-para chegar ao caminho do app.js basta acessar ./public/assets/scripts/
+   - Para chegar ao caminho do app.js basta acessar ./public/assets/scripts/
