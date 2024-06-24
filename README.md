@@ -12,7 +12,8 @@ Para utilizar este projeto, você precisará de um token da API do GitHub. Siga 
 
 1. **Obtenha um Token da API do GitHub:**
    - Acesse o [GitHub Developer Settings](https://github.com/settings/tokens) para criar um novo token.
-   - Selecione as permissões necessárias para o seu projeto (por exemplo, acesso somente leitura a repositórios públicos).
+   - Selecione as permissões necessárias para o projeto: repo, admin:org, user.
+   - Após isto, o GitHub irá gerá um token que deve ser colado no prompt da minha aplicação.
 
 ### Executando o Projeto
 
